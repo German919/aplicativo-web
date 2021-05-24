@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from './code/login/login';
+import {Route} from "wouter";
+import Home from './code/home/home';
+import WebR2 from './code/home/components/R2/r2';
+import WebR3 from './code/home/components/R3/r3';
+import WebR4 from './code/home/components/R4/r4';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+        <Route path="/" component={Login} />
+        <Route path="/home" component={Home} />
+        <Route path="/home/webr2" component={WebR2} />
+        <Route path="/home/webr3" component={WebR3} />
+        <Route path="/home/webr4" component={WebR4} />
+      </>
   );
 }
 

@@ -1,0 +1,74 @@
+.formulario{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    inline-size: 20rem;
+    block-size: 15rem;
+    margin: auto;
+    border: 2px solid rgb(224, 198, 198);
+    border-radius: .3rem;
+    background-color: rgb(175, 206, 221);
+    margin-top: 10rem;
+  }
+  H1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    
+  }
+  
+  .form-input{
+    padding: .6rem;
+    border-radius: .2rem;
+    background-color: rgb(65, 98, 136);
+    border: 1px solid rgb(163, 163, 209);
+    margin-bottom: .5rem;
+    font-weight: 700;
+  }
+  
+  button{
+    background: rgb(20, 29, 37);
+    color: aliceblue;
+    padding: .7rem;
+    border-radius: .5rem;
+    border: none;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  button:hover{
+    background: rgb(90, 150, 206);
+    color: rgb(34, 35, 36);
+    
+  }
+  
+  .form-error{
+    color:red;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  ::placeholder{
+    color: #111;
+    font-size: 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

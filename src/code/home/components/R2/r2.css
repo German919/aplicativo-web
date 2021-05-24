@@ -1,0 +1,97 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #ddd9d9;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .web-titulo{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .button-home{
+      margin-top: 2rem;
+      margin-left: 47%;
+      background: #5b89be;
+      inline-size: 5rem;
+  }
+  .button-logout{
+    position: absolute;
+    left: 92%;
+    top: 1%;
+    background: #5b89be;
+    inline-size: 5rem;
+  }
+
+  @media screen and (max-width:769px){
+      .button-home{
+        margin-left: 44.5%;
+        padding: .74rem;
+        inline-size: 6.8rem;
+        font-size: 1.5rem;
+        color: black;
+        
+    }
+    .button-logout{
+        left: 85%;
+        top:-1%;
+        padding: .9rem;
+        font-size: 1.5rem;
+        inline-size: 7rem;
+        color: #111;
+      }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        font-size: 20px;
+      }
+      
+  }
+
+  @media screen and (max-width:376px){
+
+    table{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .web-titulo{
+        inline-size: 100%;
+        margin-left: 75%;
+        font-size: 3.7rem;
+    }
+    .button-home{
+      margin-left: 102.5%;
+      padding: 1.5rem;
+      inline-size: 11rem;
+      font-size: 2.5rem;
+      color: #111;
+      border-radius: 1rem;
+  }
+    td, th {
+      padding: 15px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .button-logout{
+        left: 205%;
+        top:-1%;
+        padding: 1rem;
+        font-size: 2.4rem;
+        inline-size: 10rem;
+        color: #111;
+      }
+    
+}

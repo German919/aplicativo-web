@@ -1,0 +1,97 @@
+.container-r3{
+    display: flex;
+}
+.modal{
+    position: absolute;
+    left: 25.6%;
+    bottom: 30%;
+}
+.modal-footer{
+    background: rgb(187, 153, 153);
+}
+.modal-footer button{
+    position: relative;
+    top: 8px;
+    left: 43.5%;
+}
+
+.img-messi{
+    inline-size: 40rem;
+    block-size: 30rem;
+    
+}
+.container-r3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+}
+.far{
+    position: absolute;
+    top: 17.8rem;
+    left: 17.5rem;
+    font-size: 5rem;
+    color: #fff;
+    cursor: pointer;
+}
+.containerr-r3-titulo{
+    font-size: 2.5rem;
+}
+.container-r3-parrafo{
+    font-size: 1.2rem;
+}
+.container-r3-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:376px){
+
+    .container-r3{
+        position: relative;
+        bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-r3-text{
+        margin-left: 0;
+    }
+    .img-messi{
+        inline-size: 23.5rem;
+        block-size: 17rem;
+    }
+
+    .containerr-r3-titulo{
+        font-size: 1.7rem;
+    }
+
+    .container-r3-parrafo{
+        font-size: 1.2rem;
+    }
+    .container-r3-button{
+        display: flex;
+        justify-content:space-between;
+    }
+    .container-r3-button button{
+        border-radius: 5px;
+        background: rgb(32, 80, 102);
+    }
+    .far{
+        position: absolute;
+        top: 11rem;
+        left: 10.1rem;
+        font-size: 3rem;
+        color: #fff;
+        cursor: pointer;
+    }
+    .modal-iframe{
+        width: 375px;
+        height: 350px;
+    }
+    .modal{
+        position: absolute;
+        left: 0%;
+        bottom: 9rem;
+    }
+}

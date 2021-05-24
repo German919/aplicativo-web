@@ -1,0 +1,277 @@
+body{
+    background: #fff;
+}
+.container-header{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 3.5rem;
+}
+.subtitulo{
+    position: relative;
+    bottom: 2rem;
+    left: 11rem;
+    font-size: 1.5rem;
+}
+
+h2{
+    position: relative;
+    bottom: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+
+img{
+    inline-size: 6rem;
+    block-size: 10rem;
+}
+
+.container-solicitudes{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 4rem;
+}
+.container-solicitud1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-solicitud2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-solicitud3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-solicitud1 button{
+    padding: 1.8rem;
+    inline-size: 14rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.container-solicitud1 p{
+    position: relative;
+    bottom: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(25, 23, 53);
+    
+}
+.container-solicitud2 button{
+    padding: 1.8rem;
+    inline-size: 14rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.container-solicitud2 p{
+    position: relative;
+    bottom: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(25, 23, 53);
+}
+.container-solicitud3 button{
+    padding: 1.8rem;
+    inline-size: 14rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.container-solicitud3 p{
+    position: relative;
+    bottom: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(25, 23, 53);
+}
+.button-home-logout{
+    position: relative;
+    left: 90%;
+    top:2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    inline-size: 7rem;
+    color: #fff;
+}
+
+@media screen and (max-width:769px){
+    .titulo{
+        font-size: 2.5rem;
+    }
+    .subtitulo{
+        bottom: 1.5rem;
+        left: 8.5rem;
+        font-size: 1rem;
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    
+    img{
+        inline-size: 4rem;
+        block-size: 8rem;
+    }
+    
+    .container-solicitudes{
+        margin-top: 4rem;
+    }
+
+    .container-solicitud1 button{
+        padding: 1.5rem;
+        inline-size: 12rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .container-solicitud1 p{
+        bottom: 3rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgb(25, 23, 53);
+        text-align: center;
+    }
+    .container-solicitud2 button{
+        padding: 1.5rem;
+        inline-size: 12rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .container-solicitud2 p{
+        position: relative;
+        bottom: 3rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgb(25, 23, 53);
+        text-align: center;
+    }
+    .container-solicitud3 button{
+        padding: 1.5rem;
+        inline-size: 12rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .container-solicitud3 p{
+        position: relative;
+        bottom: 3rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgb(25, 23, 53);
+        text-align: center;
+    }
+    .button-home-logout{
+        position: relative;
+        left: 82.5%;
+        top:-1%;
+        padding: .9rem;
+        font-size: 1.5rem;
+        inline-size: 7rem;
+        color: #fff;
+  }
+}
+
+@media screen and (max-width:376px){
+
+    .titulo{
+        font-size: 5rem;
+        inline-size: 45rem;
+        text-align: center;
+        margin-left: 65rem;
+        margin-top: 5rem;
+    }
+    .subtitulo{
+        inline-size: 550px;
+        bottom: 3.5rem;
+        left: 76rem;
+        font-size: 2.5rem;
+    }
+    
+    h2{
+        inline-size: 45rem;
+        margin: auto;
+        margin-left: 83%;
+        font-size: 3.2rem;
+    }
+    
+    img{
+        margin-top: 4rem;
+        inline-size: 6rem;
+        block-size: 8rem;
+    }
+    
+    .container-solicitudes{
+        margin-top: 10rem;
+        margin-left: 41rem;
+        gap:7rem
+    }
+
+    .container-solicitud1 button{
+        padding: 1.8rem;
+        inline-size: 17rem;
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .container-solicitud1 p{
+        inline-size: 20rem;
+        bottom: 3rem;
+        padding: 1rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: rgb(25, 23, 53);
+        text-align: center;
+    }
+    .container-solicitud2 button{
+        padding: 1.8rem;
+        inline-size: 17rem;
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .container-solicitud2 p{
+        inline-size: 20rem;
+        bottom: 3rem;
+        padding: 1rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: rgb(25, 23, 53);
+        text-align: center;
+    }
+    .container-solicitud3 button{
+        padding: 1.8rem;
+        inline-size: 17rem;
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .container-solicitud3 p{
+        inline-size: 21rem;
+        bottom: 3rem;
+        padding: 1rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: rgb(25, 23, 53);
+        text-align: center;
+    }
+    .button-home-logout{
+        position: relative;
+        left: 283%;
+        top:1rem;
+        padding: 1.5rem;
+        font-size: 3rem;
+        inline-size: 13rem;
+        color: #fff;
+  }
+}
